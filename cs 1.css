@@ -1,0 +1,16 @@
+h1:hover{
+    border-style: double;
+    border-color: blue;
+    border-radius: 30px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px;
+    text-transform: uppercase;
+    background-image: linear-gradient(blue, red);
+    color: aliceblue; 
+}
+These various styles will transform the heading element into something that looks quite different on the hover effect. As for the hover effect itself, you might notice it is not located between the curly braces with the other properties. 
+
+The hover effect is instead noted directly after the HTML target element. In this case the h1 element as shown below:
+
+h1:hover{}
